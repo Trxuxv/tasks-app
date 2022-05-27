@@ -1,3 +1,5 @@
+import { TasksComponent } from './pages/tasks/tasks.component';
+import { HomeComponent } from './pages/home/home.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -6,7 +8,9 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    TasksComponent
   ],
   imports: [
     BrowserModule,
